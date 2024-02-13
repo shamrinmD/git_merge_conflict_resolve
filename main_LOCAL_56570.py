@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 class AbstractPizza:
     def description(self) ->str:
         pass
@@ -60,7 +58,9 @@ def print_pizza_to_ui(pizza: AbstractPizza) ->None:
 
 
 if __name__ == '__main__':
-    pizza = SmallPizza()
+    pizza = MiddlePizza()
     pizza = Chicken(pizza)
-    pizza = Cheese(pizza)
+    pizza = Chicken(pizza)
+    pizza = Chicken(pizza)
+    pizza = Chicken(pizza)
     print_pizza_to_ui(pizza)
