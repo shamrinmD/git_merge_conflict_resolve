@@ -60,8 +60,15 @@ def print_pizza_to_ui(pizza: AbstractPizza) ->None:
 
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     pizza = SmallPizza()
     pizza = Chicken(pizza)
     pizza = Cheese(pizza)
+=======
+    pizza = BigPizza()
     pizza = Pepper(pizza)
+    pizza = Pepper(pizza)
+    pizza = Pepper(pizza)
+    pizza = Pepper(pizza)
+>>>>>>> big-pepper
     print_pizza_to_ui(pizza)
